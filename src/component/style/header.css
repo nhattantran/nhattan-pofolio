@@ -1,0 +1,128 @@
+.navbar-fixed {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1030;
+}
+
+.sticky-navbar {
+    backdrop-filter: blur(15px) !important;
+    background-color: #1b1a2ea9!important;
+    box-shadow: 0 10px 10px 0 rgba(9,5,29,.171)!important;
+}
+
+.navbar-fixed, .sticky-navbar {
+    transition: all .3s ease-out 0s !important;
+}
+
+.my-name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(119, 37, 167);
+}
+
+@media (max-width: 994px) {
+    .my-name {
+        justify-content: center;
+    }
+}
+
+.header-menu {
+    width: 100%;
+}
+
+#header-button-keep-top {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-button {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+.top-button {
+    margin-left: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+    transition: all .3s ease-out 0s;
+    z-index: 1;
+}
+
+@media (max-width: 1000px) {
+    .top-button span {
+        display: block;
+    }
+}
+
+.header-button a {
+    text-decoration: none;
+}
+
+.header-button a:hover {
+    color: #fff;
+}
+
+.button-icon {
+    margin-bottom: 3px;
+}
+
+.top-button::after {
+    background-color: #c95bf5;
+    border-radius: 16px;
+    bottom: 1px;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 0;
+    position: relative;
+    transition: all .3s ease-out 0s;
+    z-index: -1;
+    width: 0;
+}
+
+.top-button:hover::after {
+    width: 100%;
+}
+
+.button-icon-margin-right {
+    margin-right: 4px;
+}
+
+.fork-button {
+    margin-left: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+}
+
+.fork-button-inner {
+    background-color: #934cce5e;
+    padding: 0.25rem 1.1rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.4em;
+    border-color: #623686;
+    border-radius: 5px;
+}
+
+.fork-button-inner:hover {
+    background-color: #623686;
+}

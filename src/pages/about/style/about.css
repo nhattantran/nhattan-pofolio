@@ -1,0 +1,88 @@
+.about-page-section {
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+.about-main-content {
+    color: #f5f5f5;
+    padding: 9rem 0 2rem !important;
+    text-align: left;
+}
+
+
+.about-page-description {
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 45px !important;
+}
+
+.about-page-body {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.activities {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.point-icon {
+    padding-bottom: 5px;
+}
+
+.purple {
+    color: #cd5ff8;
+    font-weight: bold;
+}
+
+.quote {
+    text-align: center;
+    color: #9c73ac;
+    font-size: 20px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.about-heading-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.about-heading-skill {
+    margin-top: 100px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-skill-list {
+    display: flex;
+    justify-content: center;
+}
+
+.about-tech-icon {
+    border: 2px solid rgba(200,137,230,.637) !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(89,4,168,.137)!important;
+    display: table !important;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.about-tech-icon:hover {
+    border-color: rgba(229, 185, 250, 0.637) !important;
+}

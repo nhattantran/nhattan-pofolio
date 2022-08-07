@@ -1,0 +1,29 @@
+.footer-area {
+    background-color: rgb(37, 35, 35);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1020;
+}
+
+.footer-item-name {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-item-name {
+        justify-content: center;
+    }
+}
+
+.footer-item-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
